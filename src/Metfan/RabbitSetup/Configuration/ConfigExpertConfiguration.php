@@ -284,6 +284,7 @@ class ConfigExpertConfiguration implements ConfigurationInterface
                             ->integerNode('max-length')->end()
                             ->integerNode('max-length-bytes')->end()
                             ->scalarNode('alternate-exchange')->end()
+                            ->scalarNode('queue-mode')->end()
                             ->scalarNode('dead-letter-exchange')->end()
                             ->scalarNode('dead-letter-routing-key')->end()
                             ->scalarNode('federation-upstream-set')->end()
